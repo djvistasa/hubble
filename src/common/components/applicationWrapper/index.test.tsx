@@ -15,4 +15,16 @@ describe("ApplicationWrapper", () => {
 
     expect(component).toMatchSnapshot();
   });
+
+  it("should render children", () => {
+    const { getByTestId } = mountWithTheme(
+      <ApplicationWrapper>
+        <div data-testid="child">Test</div>
+      </ApplicationWrapper>
+    );
+
+    const component = getByTestId("child");
+
+    expect(component).toBeDefined();
+  });
 });
