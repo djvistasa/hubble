@@ -1,0 +1,592 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`MoviesList > should render correctly 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="styles__StyledMoviesList-sc-1n8iwya-0 gkOAJX"
+      >
+        <a
+          class="styles__StyledMovieCard-sc-vuoc3k-0 gZnIKa"
+          data-testid="movie-card-Badland Hunters"
+        >
+          <div
+            class="styles__StyledMask-sc-vuoc3k-2 LYXKU mask"
+          />
+          <p
+            class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 hOBvPr"
+          >
+            Badland Hunters
+          </p>
+        </a>
+        <a
+          class="styles__StyledMovieCard-sc-vuoc3k-0 fHoZhD"
+          data-testid="movie-card-Sixty Minutes"
+        >
+          <div
+            class="styles__StyledMask-sc-vuoc3k-2 LYXKU mask"
+          />
+          <p
+            class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 hOBvPr"
+          >
+            Sixty Minutes
+          </p>
+        </a>
+        <a
+          class="styles__StyledMovieCard-sc-vuoc3k-0 fOTeeA"
+          data-testid="movie-card-Wonka"
+        >
+          <div
+            class="styles__StyledMask-sc-vuoc3k-2 LYXKU mask"
+          />
+          <p
+            class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 hOBvPr"
+          >
+            Wonka
+          </p>
+        </a>
+        <a
+          class="styles__StyledMovieCard-sc-vuoc3k-0 hVryrO"
+          data-testid="movie-card-The Marvels"
+        >
+          <div
+            class="styles__StyledMask-sc-vuoc3k-2 LYXKU mask"
+          />
+          <p
+            class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 hOBvPr"
+          >
+            The Marvels
+          </p>
+        </a>
+        <a
+          class="styles__StyledMovieCard-sc-vuoc3k-0 kcLDxU"
+          data-testid="movie-card-One More Shot"
+        >
+          <div
+            class="styles__StyledMask-sc-vuoc3k-2 LYXKU mask"
+          />
+          <p
+            class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 hOBvPr"
+          >
+            One More Shot
+          </p>
+        </a>
+        <a
+          class="styles__StyledMovieCard-sc-vuoc3k-0 dFboWy"
+          data-testid="movie-card-The Family Plan"
+        >
+          <div
+            class="styles__StyledMask-sc-vuoc3k-2 LYXKU mask"
+          />
+          <p
+            class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 hOBvPr"
+          >
+            The Family Plan
+          </p>
+        </a>
+        <a
+          class="styles__StyledMovieCard-sc-vuoc3k-0 idVGmy"
+          data-testid="movie-card-Skal - Fight for Survival"
+        >
+          <div
+            class="styles__StyledMask-sc-vuoc3k-2 LYXKU mask"
+          />
+          <p
+            class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 hOBvPr"
+          >
+            Skal - Fight for Survival
+          </p>
+        </a>
+        <a
+          class="styles__StyledMovieCard-sc-vuoc3k-0 jYWfiQ"
+          data-testid="movie-card-Lift"
+        >
+          <div
+            class="styles__StyledMask-sc-vuoc3k-2 LYXKU mask"
+          />
+          <p
+            class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 hOBvPr"
+          >
+            Lift
+          </p>
+        </a>
+        <a
+          class="styles__StyledMovieCard-sc-vuoc3k-0 bcbsKY"
+          data-testid="movie-card-Madame Web"
+        >
+          <div
+            class="styles__StyledMask-sc-vuoc3k-2 LYXKU mask"
+          />
+          <p
+            class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 hOBvPr"
+          >
+            Madame Web
+          </p>
+        </a>
+        <a
+          class="styles__StyledMovieCard-sc-vuoc3k-0 eAeUta"
+          data-testid="movie-card-Migration"
+        >
+          <div
+            class="styles__StyledMask-sc-vuoc3k-2 LYXKU mask"
+          />
+          <p
+            class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 hOBvPr"
+          >
+            Migration
+          </p>
+        </a>
+        <a
+          class="styles__StyledMovieCard-sc-vuoc3k-0 jkOUru"
+          data-testid="movie-card-The Beekeeper"
+        >
+          <div
+            class="styles__StyledMask-sc-vuoc3k-2 LYXKU mask"
+          />
+          <p
+            class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 hOBvPr"
+          >
+            The Beekeeper
+          </p>
+        </a>
+        <a
+          class="styles__StyledMovieCard-sc-vuoc3k-0 krvWOW"
+          data-testid="movie-card-Aquaman and the Lost Kingdom"
+        >
+          <div
+            class="styles__StyledMask-sc-vuoc3k-2 LYXKU mask"
+          />
+          <p
+            class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 hOBvPr"
+          >
+            Aquaman and the Lost Kingdom
+          </p>
+        </a>
+        <a
+          class="styles__StyledMovieCard-sc-vuoc3k-0 eTanPM"
+          data-testid="movie-card-Wish"
+        >
+          <div
+            class="styles__StyledMask-sc-vuoc3k-2 LYXKU mask"
+          />
+          <p
+            class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 hOBvPr"
+          >
+            Wish
+          </p>
+        </a>
+        <a
+          class="styles__StyledMovieCard-sc-vuoc3k-0 kWiAsi"
+          data-testid="movie-card-The Hunger Games: The Ballad of Songbirds & Snakes"
+        >
+          <div
+            class="styles__StyledMask-sc-vuoc3k-2 LYXKU mask"
+          />
+          <p
+            class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 hOBvPr"
+          >
+            The Hunger Games: The Ballad of Songbirds & Snakes
+          </p>
+        </a>
+        <a
+          class="styles__StyledMovieCard-sc-vuoc3k-0 cfPCLm"
+          data-testid="movie-card-Silent Night"
+        >
+          <div
+            class="styles__StyledMask-sc-vuoc3k-2 LYXKU mask"
+          />
+          <p
+            class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 hOBvPr"
+          >
+            Silent Night
+          </p>
+        </a>
+        <a
+          class="styles__StyledMovieCard-sc-vuoc3k-0 knLBgZ"
+          data-testid="movie-card-Rebel Moon - Part One: A Child of Fire"
+        >
+          <div
+            class="styles__StyledMask-sc-vuoc3k-2 LYXKU mask"
+          />
+          <p
+            class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 hOBvPr"
+          >
+            Rebel Moon - Part One: A Child of Fire
+          </p>
+        </a>
+        <a
+          class="styles__StyledMovieCard-sc-vuoc3k-0 bVFOzJ"
+          data-testid="movie-card-Anyone But You"
+        >
+          <div
+            class="styles__StyledMask-sc-vuoc3k-2 LYXKU mask"
+          />
+          <p
+            class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 hOBvPr"
+          >
+            Anyone But You
+          </p>
+        </a>
+        <a
+          class="styles__StyledMovieCard-sc-vuoc3k-0 deWxus"
+          data-testid="movie-card-Orion and the Dark"
+        >
+          <div
+            class="styles__StyledMask-sc-vuoc3k-2 LYXKU mask"
+          />
+          <p
+            class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 hOBvPr"
+          >
+            Orion and the Dark
+          </p>
+        </a>
+        <a
+          class="styles__StyledMovieCard-sc-vuoc3k-0 jRMdcE"
+          data-testid="movie-card-Role Play"
+        >
+          <div
+            class="styles__StyledMask-sc-vuoc3k-2 LYXKU mask"
+          />
+          <p
+            class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 hOBvPr"
+          >
+            Role Play
+          </p>
+        </a>
+        <a
+          class="styles__StyledMovieCard-sc-vuoc3k-0 hGixLw"
+          data-testid="movie-card-The Bricklayer"
+        >
+          <div
+            class="styles__StyledMask-sc-vuoc3k-2 LYXKU mask"
+          />
+          <p
+            class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 hOBvPr"
+          >
+            The Bricklayer
+          </p>
+        </a>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="styles__StyledMoviesList-sc-1n8iwya-0 gkOAJX"
+    >
+      <a
+        class="styles__StyledMovieCard-sc-vuoc3k-0 gZnIKa"
+        data-testid="movie-card-Badland Hunters"
+      >
+        <div
+          class="styles__StyledMask-sc-vuoc3k-2 LYXKU mask"
+        />
+        <p
+          class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 hOBvPr"
+        >
+          Badland Hunters
+        </p>
+      </a>
+      <a
+        class="styles__StyledMovieCard-sc-vuoc3k-0 fHoZhD"
+        data-testid="movie-card-Sixty Minutes"
+      >
+        <div
+          class="styles__StyledMask-sc-vuoc3k-2 LYXKU mask"
+        />
+        <p
+          class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 hOBvPr"
+        >
+          Sixty Minutes
+        </p>
+      </a>
+      <a
+        class="styles__StyledMovieCard-sc-vuoc3k-0 fOTeeA"
+        data-testid="movie-card-Wonka"
+      >
+        <div
+          class="styles__StyledMask-sc-vuoc3k-2 LYXKU mask"
+        />
+        <p
+          class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 hOBvPr"
+        >
+          Wonka
+        </p>
+      </a>
+      <a
+        class="styles__StyledMovieCard-sc-vuoc3k-0 hVryrO"
+        data-testid="movie-card-The Marvels"
+      >
+        <div
+          class="styles__StyledMask-sc-vuoc3k-2 LYXKU mask"
+        />
+        <p
+          class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 hOBvPr"
+        >
+          The Marvels
+        </p>
+      </a>
+      <a
+        class="styles__StyledMovieCard-sc-vuoc3k-0 kcLDxU"
+        data-testid="movie-card-One More Shot"
+      >
+        <div
+          class="styles__StyledMask-sc-vuoc3k-2 LYXKU mask"
+        />
+        <p
+          class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 hOBvPr"
+        >
+          One More Shot
+        </p>
+      </a>
+      <a
+        class="styles__StyledMovieCard-sc-vuoc3k-0 dFboWy"
+        data-testid="movie-card-The Family Plan"
+      >
+        <div
+          class="styles__StyledMask-sc-vuoc3k-2 LYXKU mask"
+        />
+        <p
+          class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 hOBvPr"
+        >
+          The Family Plan
+        </p>
+      </a>
+      <a
+        class="styles__StyledMovieCard-sc-vuoc3k-0 idVGmy"
+        data-testid="movie-card-Skal - Fight for Survival"
+      >
+        <div
+          class="styles__StyledMask-sc-vuoc3k-2 LYXKU mask"
+        />
+        <p
+          class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 hOBvPr"
+        >
+          Skal - Fight for Survival
+        </p>
+      </a>
+      <a
+        class="styles__StyledMovieCard-sc-vuoc3k-0 jYWfiQ"
+        data-testid="movie-card-Lift"
+      >
+        <div
+          class="styles__StyledMask-sc-vuoc3k-2 LYXKU mask"
+        />
+        <p
+          class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 hOBvPr"
+        >
+          Lift
+        </p>
+      </a>
+      <a
+        class="styles__StyledMovieCard-sc-vuoc3k-0 bcbsKY"
+        data-testid="movie-card-Madame Web"
+      >
+        <div
+          class="styles__StyledMask-sc-vuoc3k-2 LYXKU mask"
+        />
+        <p
+          class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 hOBvPr"
+        >
+          Madame Web
+        </p>
+      </a>
+      <a
+        class="styles__StyledMovieCard-sc-vuoc3k-0 eAeUta"
+        data-testid="movie-card-Migration"
+      >
+        <div
+          class="styles__StyledMask-sc-vuoc3k-2 LYXKU mask"
+        />
+        <p
+          class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 hOBvPr"
+        >
+          Migration
+        </p>
+      </a>
+      <a
+        class="styles__StyledMovieCard-sc-vuoc3k-0 jkOUru"
+        data-testid="movie-card-The Beekeeper"
+      >
+        <div
+          class="styles__StyledMask-sc-vuoc3k-2 LYXKU mask"
+        />
+        <p
+          class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 hOBvPr"
+        >
+          The Beekeeper
+        </p>
+      </a>
+      <a
+        class="styles__StyledMovieCard-sc-vuoc3k-0 krvWOW"
+        data-testid="movie-card-Aquaman and the Lost Kingdom"
+      >
+        <div
+          class="styles__StyledMask-sc-vuoc3k-2 LYXKU mask"
+        />
+        <p
+          class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 hOBvPr"
+        >
+          Aquaman and the Lost Kingdom
+        </p>
+      </a>
+      <a
+        class="styles__StyledMovieCard-sc-vuoc3k-0 eTanPM"
+        data-testid="movie-card-Wish"
+      >
+        <div
+          class="styles__StyledMask-sc-vuoc3k-2 LYXKU mask"
+        />
+        <p
+          class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 hOBvPr"
+        >
+          Wish
+        </p>
+      </a>
+      <a
+        class="styles__StyledMovieCard-sc-vuoc3k-0 kWiAsi"
+        data-testid="movie-card-The Hunger Games: The Ballad of Songbirds & Snakes"
+      >
+        <div
+          class="styles__StyledMask-sc-vuoc3k-2 LYXKU mask"
+        />
+        <p
+          class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 hOBvPr"
+        >
+          The Hunger Games: The Ballad of Songbirds & Snakes
+        </p>
+      </a>
+      <a
+        class="styles__StyledMovieCard-sc-vuoc3k-0 cfPCLm"
+        data-testid="movie-card-Silent Night"
+      >
+        <div
+          class="styles__StyledMask-sc-vuoc3k-2 LYXKU mask"
+        />
+        <p
+          class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 hOBvPr"
+        >
+          Silent Night
+        </p>
+      </a>
+      <a
+        class="styles__StyledMovieCard-sc-vuoc3k-0 knLBgZ"
+        data-testid="movie-card-Rebel Moon - Part One: A Child of Fire"
+      >
+        <div
+          class="styles__StyledMask-sc-vuoc3k-2 LYXKU mask"
+        />
+        <p
+          class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 hOBvPr"
+        >
+          Rebel Moon - Part One: A Child of Fire
+        </p>
+      </a>
+      <a
+        class="styles__StyledMovieCard-sc-vuoc3k-0 bVFOzJ"
+        data-testid="movie-card-Anyone But You"
+      >
+        <div
+          class="styles__StyledMask-sc-vuoc3k-2 LYXKU mask"
+        />
+        <p
+          class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 hOBvPr"
+        >
+          Anyone But You
+        </p>
+      </a>
+      <a
+        class="styles__StyledMovieCard-sc-vuoc3k-0 deWxus"
+        data-testid="movie-card-Orion and the Dark"
+      >
+        <div
+          class="styles__StyledMask-sc-vuoc3k-2 LYXKU mask"
+        />
+        <p
+          class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 hOBvPr"
+        >
+          Orion and the Dark
+        </p>
+      </a>
+      <a
+        class="styles__StyledMovieCard-sc-vuoc3k-0 jRMdcE"
+        data-testid="movie-card-Role Play"
+      >
+        <div
+          class="styles__StyledMask-sc-vuoc3k-2 LYXKU mask"
+        />
+        <p
+          class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 hOBvPr"
+        >
+          Role Play
+        </p>
+      </a>
+      <a
+        class="styles__StyledMovieCard-sc-vuoc3k-0 hGixLw"
+        data-testid="movie-card-The Bricklayer"
+      >
+        <div
+          class="styles__StyledMask-sc-vuoc3k-2 LYXKU mask"
+        />
+        <p
+          class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 hOBvPr"
+        >
+          The Bricklayer
+        </p>
+      </a>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
