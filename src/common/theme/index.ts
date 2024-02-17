@@ -7,6 +7,7 @@ const theme: DefaultTheme = {
     primary: "#F7A823",
     primary16: "rgba(247, 168, 35, 0.16)",
     primaryBorder: "#FF8931",
+    black25: "rgba(0, 0, 0, 0.25)",
     white: "#fff",
     secondary: "#FF9454",
     tertiary: "#F1F4F7",

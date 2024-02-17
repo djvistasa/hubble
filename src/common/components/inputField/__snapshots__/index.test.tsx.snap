@@ -1,39 +1,39 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`MovieCard > should render correctly 1`] = `
+exports[`InputField > should render correctly 1`] = `
 {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <a
-        class="styles__StyledMovieCard-sc-vuoc3k-0 gZnIKa"
-        data-testid="movie-card-Badland Hunters"
+      <div
+        class="styles__StyledInputWrapper-sc-27trcx-1 ePjCos"
       >
         <div
-          class="styles__StyledMask-sc-vuoc3k-2 LYXKU mask"
-        />
-        <p
-          class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 gKOtGX"
+          class="styles__StyledInputInner-sc-27trcx-3 chZIvK"
         >
-          Badland Hunters
-        </p>
-      </a>
+          <input
+            class="styles__StyledInput-sc-27trcx-0 ecwAGM"
+            data-testid="input-test-test"
+            type="text"
+          />
+        </div>
+      </div>
     </div>
   </body>,
   "container": <div>
-    <a
-      class="styles__StyledMovieCard-sc-vuoc3k-0 gZnIKa"
-      data-testid="movie-card-Badland Hunters"
+    <div
+      class="styles__StyledInputWrapper-sc-27trcx-1 ePjCos"
     >
       <div
-        class="styles__StyledMask-sc-vuoc3k-2 LYXKU mask"
-      />
-      <p
-        class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 gKOtGX"
+        class="styles__StyledInputInner-sc-27trcx-3 chZIvK"
       >
-        Badland Hunters
-      </p>
-    </a>
+        <input
+          class="styles__StyledInput-sc-27trcx-0 ecwAGM"
+          data-testid="input-test-test"
+          type="text"
+        />
+      </div>
+    </div>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],

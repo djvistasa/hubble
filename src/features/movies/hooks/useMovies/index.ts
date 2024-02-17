@@ -1,5 +1,6 @@
-import { IMovieResponse } from "@features/movies/types";
+import { IMovie, IMovieResponse } from "@features/movies/types";
 import { makeApiRequest } from "@utils";
+import { useState } from "react";
 import { useQuery } from "react-query";
 import { useNavigate, useParams, useSearchParams } from "react-router-dom";
 import { IMoviesRouteParams, IUseMovies } from "./types";
@@ -8,11 +9,10 @@ function useMovies(): IUseMovies {
   // create a getMovies mutation
 
   const { page } = useParams<IMoviesRouteParams>();
-  const [searchParams, setSearchParams] = useSearchParams();
+  const [_searchParams, setSearchParams] = useSearchParams();
+  const [movies, setMovies] = useState<IMovie[]>([]);
 
   const navigation = useNavigate();
-
-  console.log(searchParams);
 
   const getNextPage = () => {
     if (page) {
@@ -21,7 +21,7 @@ function useMovies(): IUseMovies {
     }
   };
 
-  const { data: movies } = useQuery(["movies"], async () => {
+  useQuery(["movies"], async () => {
     const { error, result, ok } = await makeApiRequest(
       `/discover/movie?include_adult=false&include_video=false&language=en-US&page=${page}&sort_by=popularity.desc`
     );
@@ -37,7 +37,7 @@ function useMovies(): IUseMovies {
         total_pages: total_pages.toString(),
       });
 
-      return results;
+      setMovies(results);
     }
   });
 

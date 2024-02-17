@@ -6,7 +6,7 @@ exports[`MoviesList > should render correctly 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="styles__StyledMoviesList-sc-1n8iwya-0 gkOAJX"
+        class="styles__StyledMoviesList-sc-1n8iwya-0 hDFrCA"
       >
         <a
           class="styles__StyledMovieCard-sc-vuoc3k-0 gZnIKa"
@@ -16,7 +16,7 @@ exports[`MoviesList > should render correctly 1`] = `
             class="styles__StyledMask-sc-vuoc3k-2 LYXKU mask"
           />
           <p
-            class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 hOBvPr"
+            class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 gKOtGX"
           >
             Badland Hunters
           </p>
@@ -29,7 +29,7 @@ exports[`MoviesList > should render correctly 1`] = `
             class="styles__StyledMask-sc-vuoc3k-2 LYXKU mask"
           />
           <p
-            class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 hOBvPr"
+            class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 gKOtGX"
           >
             Sixty Minutes
           </p>
@@ -42,7 +42,7 @@ exports[`MoviesList > should render correctly 1`] = `
             class="styles__StyledMask-sc-vuoc3k-2 LYXKU mask"
           />
           <p
-            class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 hOBvPr"
+            class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 gKOtGX"
           >
             Wonka
           </p>
@@ -55,7 +55,7 @@ exports[`MoviesList > should render correctly 1`] = `
             class="styles__StyledMask-sc-vuoc3k-2 LYXKU mask"
           />
           <p
-            class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 hOBvPr"
+            class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 gKOtGX"
           >
             The Marvels
           </p>
@@ -68,7 +68,7 @@ exports[`MoviesList > should render correctly 1`] = `
             class="styles__StyledMask-sc-vuoc3k-2 LYXKU mask"
           />
           <p
-            class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 hOBvPr"
+            class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 gKOtGX"
           >
             One More Shot
           </p>
@@ -81,7 +81,7 @@ exports[`MoviesList > should render correctly 1`] = `
             class="styles__StyledMask-sc-vuoc3k-2 LYXKU mask"
           />
           <p
-            class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 hOBvPr"
+            class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 gKOtGX"
           >
             The Family Plan
           </p>
@@ -94,7 +94,7 @@ exports[`MoviesList > should render correctly 1`] = `
             class="styles__StyledMask-sc-vuoc3k-2 LYXKU mask"
           />
           <p
-            class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 hOBvPr"
+            class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 gKOtGX"
           >
             Skal - Fight for Survival
           </p>
@@ -107,7 +107,7 @@ exports[`MoviesList > should render correctly 1`] = `
             class="styles__StyledMask-sc-vuoc3k-2 LYXKU mask"
           />
           <p
-            class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 hOBvPr"
+            class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 gKOtGX"
           >
             Lift
           </p>
@@ -120,7 +120,7 @@ exports[`MoviesList > should render correctly 1`] = `
             class="styles__StyledMask-sc-vuoc3k-2 LYXKU mask"
           />
           <p
-            class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 hOBvPr"
+            class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 gKOtGX"
           >
             Madame Web
           </p>
@@ -133,7 +133,7 @@ exports[`MoviesList > should render correctly 1`] = `
             class="styles__StyledMask-sc-vuoc3k-2 LYXKU mask"
           />
           <p
-            class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 hOBvPr"
+            class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 gKOtGX"
           >
             Migration
           </p>
@@ -146,7 +146,7 @@ exports[`MoviesList > should render correctly 1`] = `
             class="styles__StyledMask-sc-vuoc3k-2 LYXKU mask"
           />
           <p
-            class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 hOBvPr"
+            class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 gKOtGX"
           >
             The Beekeeper
           </p>
@@ -159,7 +159,7 @@ exports[`MoviesList > should render correctly 1`] = `
             class="styles__StyledMask-sc-vuoc3k-2 LYXKU mask"
           />
           <p
-            class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 hOBvPr"
+            class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 gKOtGX"
           >
             Aquaman and the Lost Kingdom
           </p>
@@ -172,7 +172,7 @@ exports[`MoviesList > should render correctly 1`] = `
             class="styles__StyledMask-sc-vuoc3k-2 LYXKU mask"
           />
           <p
-            class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 hOBvPr"
+            class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 gKOtGX"
           >
             Wish
           </p>
@@ -185,7 +185,7 @@ exports[`MoviesList > should render correctly 1`] = `
             class="styles__StyledMask-sc-vuoc3k-2 LYXKU mask"
           />
           <p
-            class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 hOBvPr"
+            class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 gKOtGX"
           >
             The Hunger Games: The Ballad of Songbirds & Snakes
           </p>
@@ -198,7 +198,7 @@ exports[`MoviesList > should render correctly 1`] = `
             class="styles__StyledMask-sc-vuoc3k-2 LYXKU mask"
           />
           <p
-            class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 hOBvPr"
+            class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 gKOtGX"
           >
             Silent Night
           </p>
@@ -211,7 +211,7 @@ exports[`MoviesList > should render correctly 1`] = `
             class="styles__StyledMask-sc-vuoc3k-2 LYXKU mask"
           />
           <p
-            class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 hOBvPr"
+            class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 gKOtGX"
           >
             Rebel Moon - Part One: A Child of Fire
           </p>
@@ -224,7 +224,7 @@ exports[`MoviesList > should render correctly 1`] = `
             class="styles__StyledMask-sc-vuoc3k-2 LYXKU mask"
           />
           <p
-            class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 hOBvPr"
+            class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 gKOtGX"
           >
             Anyone But You
           </p>
@@ -237,7 +237,7 @@ exports[`MoviesList > should render correctly 1`] = `
             class="styles__StyledMask-sc-vuoc3k-2 LYXKU mask"
           />
           <p
-            class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 hOBvPr"
+            class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 gKOtGX"
           >
             Orion and the Dark
           </p>
@@ -250,7 +250,7 @@ exports[`MoviesList > should render correctly 1`] = `
             class="styles__StyledMask-sc-vuoc3k-2 LYXKU mask"
           />
           <p
-            class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 hOBvPr"
+            class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 gKOtGX"
           >
             Role Play
           </p>
@@ -263,7 +263,7 @@ exports[`MoviesList > should render correctly 1`] = `
             class="styles__StyledMask-sc-vuoc3k-2 LYXKU mask"
           />
           <p
-            class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 hOBvPr"
+            class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 gKOtGX"
           >
             The Bricklayer
           </p>
@@ -273,7 +273,7 @@ exports[`MoviesList > should render correctly 1`] = `
   </body>,
   "container": <div>
     <div
-      class="styles__StyledMoviesList-sc-1n8iwya-0 gkOAJX"
+      class="styles__StyledMoviesList-sc-1n8iwya-0 hDFrCA"
     >
       <a
         class="styles__StyledMovieCard-sc-vuoc3k-0 gZnIKa"
@@ -283,7 +283,7 @@ exports[`MoviesList > should render correctly 1`] = `
           class="styles__StyledMask-sc-vuoc3k-2 LYXKU mask"
         />
         <p
-          class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 hOBvPr"
+          class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 gKOtGX"
         >
           Badland Hunters
         </p>
@@ -296,7 +296,7 @@ exports[`MoviesList > should render correctly 1`] = `
           class="styles__StyledMask-sc-vuoc3k-2 LYXKU mask"
         />
         <p
-          class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 hOBvPr"
+          class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 gKOtGX"
         >
           Sixty Minutes
         </p>
@@ -309,7 +309,7 @@ exports[`MoviesList > should render correctly 1`] = `
           class="styles__StyledMask-sc-vuoc3k-2 LYXKU mask"
         />
         <p
-          class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 hOBvPr"
+          class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 gKOtGX"
         >
           Wonka
         </p>
@@ -322,7 +322,7 @@ exports[`MoviesList > should render correctly 1`] = `
           class="styles__StyledMask-sc-vuoc3k-2 LYXKU mask"
         />
         <p
-          class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 hOBvPr"
+          class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 gKOtGX"
         >
           The Marvels
         </p>
@@ -335,7 +335,7 @@ exports[`MoviesList > should render correctly 1`] = `
           class="styles__StyledMask-sc-vuoc3k-2 LYXKU mask"
         />
         <p
-          class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 hOBvPr"
+          class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 gKOtGX"
         >
           One More Shot
         </p>
@@ -348,7 +348,7 @@ exports[`MoviesList > should render correctly 1`] = `
           class="styles__StyledMask-sc-vuoc3k-2 LYXKU mask"
         />
         <p
-          class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 hOBvPr"
+          class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 gKOtGX"
         >
           The Family Plan
         </p>
@@ -361,7 +361,7 @@ exports[`MoviesList > should render correctly 1`] = `
           class="styles__StyledMask-sc-vuoc3k-2 LYXKU mask"
         />
         <p
-          class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 hOBvPr"
+          class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 gKOtGX"
         >
           Skal - Fight for Survival
         </p>
@@ -374,7 +374,7 @@ exports[`MoviesList > should render correctly 1`] = `
           class="styles__StyledMask-sc-vuoc3k-2 LYXKU mask"
         />
         <p
-          class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 hOBvPr"
+          class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 gKOtGX"
         >
           Lift
         </p>
@@ -387,7 +387,7 @@ exports[`MoviesList > should render correctly 1`] = `
           class="styles__StyledMask-sc-vuoc3k-2 LYXKU mask"
         />
         <p
-          class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 hOBvPr"
+          class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 gKOtGX"
         >
           Madame Web
         </p>
@@ -400,7 +400,7 @@ exports[`MoviesList > should render correctly 1`] = `
           class="styles__StyledMask-sc-vuoc3k-2 LYXKU mask"
         />
         <p
-          class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 hOBvPr"
+          class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 gKOtGX"
         >
           Migration
         </p>
@@ -413,7 +413,7 @@ exports[`MoviesList > should render correctly 1`] = `
           class="styles__StyledMask-sc-vuoc3k-2 LYXKU mask"
         />
         <p
-          class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 hOBvPr"
+          class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 gKOtGX"
         >
           The Beekeeper
         </p>
@@ -426,7 +426,7 @@ exports[`MoviesList > should render correctly 1`] = `
           class="styles__StyledMask-sc-vuoc3k-2 LYXKU mask"
         />
         <p
-          class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 hOBvPr"
+          class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 gKOtGX"
         >
           Aquaman and the Lost Kingdom
         </p>
@@ -439,7 +439,7 @@ exports[`MoviesList > should render correctly 1`] = `
           class="styles__StyledMask-sc-vuoc3k-2 LYXKU mask"
         />
         <p
-          class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 hOBvPr"
+          class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 gKOtGX"
         >
           Wish
         </p>
@@ -452,7 +452,7 @@ exports[`MoviesList > should render correctly 1`] = `
           class="styles__StyledMask-sc-vuoc3k-2 LYXKU mask"
         />
         <p
-          class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 hOBvPr"
+          class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 gKOtGX"
         >
           The Hunger Games: The Ballad of Songbirds & Snakes
         </p>
@@ -465,7 +465,7 @@ exports[`MoviesList > should render correctly 1`] = `
           class="styles__StyledMask-sc-vuoc3k-2 LYXKU mask"
         />
         <p
-          class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 hOBvPr"
+          class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 gKOtGX"
         >
           Silent Night
         </p>
@@ -478,7 +478,7 @@ exports[`MoviesList > should render correctly 1`] = `
           class="styles__StyledMask-sc-vuoc3k-2 LYXKU mask"
         />
         <p
-          class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 hOBvPr"
+          class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 gKOtGX"
         >
           Rebel Moon - Part One: A Child of Fire
         </p>
@@ -491,7 +491,7 @@ exports[`MoviesList > should render correctly 1`] = `
           class="styles__StyledMask-sc-vuoc3k-2 LYXKU mask"
         />
         <p
-          class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 hOBvPr"
+          class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 gKOtGX"
         >
           Anyone But You
         </p>
@@ -504,7 +504,7 @@ exports[`MoviesList > should render correctly 1`] = `
           class="styles__StyledMask-sc-vuoc3k-2 LYXKU mask"
         />
         <p
-          class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 hOBvPr"
+          class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 gKOtGX"
         >
           Orion and the Dark
         </p>
@@ -517,7 +517,7 @@ exports[`MoviesList > should render correctly 1`] = `
           class="styles__StyledMask-sc-vuoc3k-2 LYXKU mask"
         />
         <p
-          class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 hOBvPr"
+          class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 gKOtGX"
         >
           Role Play
         </p>
@@ -530,7 +530,7 @@ exports[`MoviesList > should render correctly 1`] = `
           class="styles__StyledMask-sc-vuoc3k-2 LYXKU mask"
         />
         <p
-          class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 hOBvPr"
+          class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 gKOtGX"
         >
           The Bricklayer
         </p>
