@@ -1,0 +1,626 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`MovieDetails > should render correctly 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="styles__StyledMovieDetails-sc-wuyzx4-0 BeQRr"
+      >
+        <div
+          class="styles__StyledBackdrop-sc-wuyzx4-1 lcwIpM"
+        />
+        <div
+          class="styles__StyledMovieDetailsBody-sc-wuyzx4-2 cNOsNG"
+        >
+          <a
+            class="styles__StyledBackButton-sc-l4ccil-0 kHXVBS"
+          >
+            <svg
+              fill="black"
+              height="20"
+              viewBox="0 0 100 100"
+              width="20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M18 50C18 47.2472 19.0448 44.6003 21.03 42.4828L59.8981 3.09688C63.973 -1.03229 70.66 -1.03229 74.7349 3.09688C78.8098 7.22605 78.8098 13.8962 74.7349 18.0254L43.2852 49.8941L74.9438 81.9746C79.0187 86.1038 79.0187 92.774 74.9438 96.9031C70.869 101.032 64.2865 101.032 60.2116 96.9031L21.03 57.5172C19.0448 55.3997 18 52.7528 18 50Z"
+                fill="#989099"
+              />
+            </svg>
+            <p>
+              Back
+            </p>
+          </a>
+          <div
+            class="styles__StyledMoviePoster-sc-wuyzx4-3 ktpBhk"
+          />
+          <h1>
+            Badland Hunters
+          </h1>
+          <div
+            class="globalStyles__StyledFlexWrapper-sc-cp3f5r-1 hCFhdj"
+          >
+            <p
+              class="styles__StyledLabel-sc-wuyzx4-5 fUcjDs"
+            >
+              Released :
+            </p>
+            <p
+              class="styles__StyledValue-sc-wuyzx4-4 jTqoQm"
+            >
+              2024-01-26
+            </p>
+          </div>
+          <div
+            class="globalStyles__StyledFlexWrapper-sc-cp3f5r-1 hCFhdj"
+          >
+            <p
+              class="styles__StyledLabel-sc-wuyzx4-5 fUcjDs"
+            >
+              Genres :
+            </p>
+            <p
+              class="styles__StyledValue-sc-wuyzx4-4 jTqoQm"
+            >
+              Science Fiction, Action, Drama
+            </p>
+          </div>
+          <div
+            class="globalStyles__StyledFlexWrapper-sc-cp3f5r-1 hCFhdj"
+          >
+            <p
+              class="styles__StyledLabel-sc-wuyzx4-5 fUcjDs"
+            >
+              Runtime :
+            </p>
+            <p
+              class="styles__StyledValue-sc-wuyzx4-4 jTqoQm"
+            >
+              107
+               minutes
+            </p>
+          </div>
+          <div
+            class="globalStyles__StyledFlexWrapper-sc-cp3f5r-1 hCFhdj"
+          >
+            <p
+              class="styles__StyledLabel-sc-wuyzx4-5 fUcjDs"
+            >
+              Website :
+            </p>
+            <p
+              class="styles__StyledValue-sc-wuyzx4-4 jTqoQm"
+            >
+              <a
+                href="https://www.netflix.com/title/81721676"
+                rel="noreferrer"
+                target="_blank"
+              >
+                https://www.netflix.com/title/81721676
+              </a>
+            </p>
+          </div>
+          <div
+            class="globalStyles__StyledFlexWrapper-sc-cp3f5r-1 hCFhdj"
+          >
+            <p
+              class="styles__StyledLabel-sc-wuyzx4-5 fUcjDs"
+            >
+              Running time :
+            </p>
+            <p
+              class="styles__StyledValue-sc-wuyzx4-4 jTqoQm"
+            >
+              107
+               minutes
+            </p>
+          </div>
+          <div
+            class="globalStyles__StyledFlexWrapper-sc-cp3f5r-1 hCFhdj"
+          >
+            <p
+              class="styles__StyledLabel-sc-wuyzx4-5 fUcjDs"
+            >
+              Original language :
+            </p>
+            <p
+              class="styles__StyledValue-sc-wuyzx4-4 jTqoQm"
+            >
+              ko
+            </p>
+          </div>
+          <div
+            class="globalStyles__StyledFlexWrapper-sc-cp3f5r-1 hCFhdj"
+          >
+            <p
+              class="styles__StyledLabel-sc-wuyzx4-5 fUcjDs"
+            >
+              Spoken languages :
+            </p>
+            <p
+              class="styles__StyledValue-sc-wuyzx4-4 jTqoQm"
+            >
+              한국어/조선말
+            </p>
+          </div>
+          <div
+            class="globalStyles__StyledFlexWrapper-sc-cp3f5r-1 hCFhdj"
+          >
+            <p
+              class="styles__StyledLabel-sc-wuyzx4-5 fUcjDs"
+            >
+              Revenue :
+            </p>
+            <p
+              class="styles__StyledValue-sc-wuyzx4-4 jTqoQm"
+            >
+              $0.00
+            </p>
+          </div>
+          <div
+            class="globalStyles__StyledFlexWrapper-sc-cp3f5r-1 hCFhdj"
+          >
+            <p
+              class="styles__StyledLabel-sc-wuyzx4-5 fUcjDs"
+            >
+              Budget :
+            </p>
+            <p
+              class="styles__StyledValue-sc-wuyzx4-4 jTqoQm"
+            >
+              $0.00
+            </p>
+          </div>
+          <div
+            class="globalStyles__StyledFlexWrapper-sc-cp3f5r-1 hCFhdj"
+          >
+            <p
+              class="styles__StyledLabel-sc-wuyzx4-5 fUcjDs"
+            >
+              Production companies :
+            </p>
+            <p
+              class="styles__StyledValue-sc-wuyzx4-4 jTqoQm"
+            >
+              Climax Studios, Nova Film, Big Punch Pictures, Lotte Entertainment
+            </p>
+          </div>
+          <div
+            class="globalStyles__StyledFlexWrapper-sc-cp3f5r-1 hCFhdj"
+          >
+            <p
+              class="styles__StyledLabel-sc-wuyzx4-5 fUcjDs"
+            >
+              Production countries :
+            </p>
+            <p
+              class="styles__StyledValue-sc-wuyzx4-4 jTqoQm"
+            >
+              South Korea
+            </p>
+          </div>
+          <div
+            class="globalStyles__StyledFlexWrapper-sc-cp3f5r-1 hCFhdj"
+          >
+            <p
+              class="styles__StyledLabel-sc-wuyzx4-5 fUcjDs"
+            >
+              Tagline :
+            </p>
+            <p
+              class="styles__StyledValue-sc-wuyzx4-4 jTqoQm"
+            >
+              One last hunt to save us all.
+            </p>
+          </div>
+          <div
+            class="globalStyles__StyledFlexWrapper-sc-cp3f5r-1 hCFhdj"
+          >
+            <p
+              class="styles__StyledLabel-sc-wuyzx4-5 fUcjDs"
+            >
+              Votes :
+            </p>
+            <p
+              class="styles__StyledValue-sc-wuyzx4-4 jTqoQm"
+            >
+              411
+            </p>
+          </div>
+          <div
+            class="globalStyles__StyledFlexWrapper-sc-cp3f5r-1 hCFhdj"
+          >
+            <p
+              class="styles__StyledLabel-sc-wuyzx4-5 fUcjDs"
+            >
+              Vote average :
+            </p>
+            <p
+              class="styles__StyledValue-sc-wuyzx4-4 jTqoQm"
+            >
+              6.713
+            </p>
+          </div>
+          <div
+            class="globalStyles__StyledFlexWrapper-sc-cp3f5r-1 hCFhdj"
+          >
+            <p
+              class="styles__StyledLabel-sc-wuyzx4-5 fUcjDs"
+            >
+              Popularity :
+            </p>
+            <p
+              class="styles__StyledValue-sc-wuyzx4-4 jTqoQm"
+            >
+              1924.206
+            </p>
+          </div>
+          <div
+            class="globalStyles__StyledFlexWrapper-sc-cp3f5r-1 hCFhdj"
+          >
+            <p
+              class="styles__StyledLabel-sc-wuyzx4-5 fUcjDs"
+            >
+              IMDB link :
+            </p>
+            <p
+              class="styles__StyledValue-sc-wuyzx4-4 jTqoQm"
+            >
+              <a
+                href="https://www.imdb.com/title/tt29722855"
+                rel="noreferrer"
+                target="_blank"
+              >
+                https://www.imdb.com/title/
+                tt29722855
+              </a>
+            </p>
+          </div>
+          <h2>
+            Overview
+          </h2>
+          <p>
+            After a deadly earthquake turns Seoul into a lawless badland, a fearless huntsman springs into action to rescue a teenager abducted by a mad doctor.
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="styles__StyledMovieDetails-sc-wuyzx4-0 BeQRr"
+    >
+      <div
+        class="styles__StyledBackdrop-sc-wuyzx4-1 lcwIpM"
+      />
+      <div
+        class="styles__StyledMovieDetailsBody-sc-wuyzx4-2 cNOsNG"
+      >
+        <a
+          class="styles__StyledBackButton-sc-l4ccil-0 kHXVBS"
+        >
+          <svg
+            fill="black"
+            height="20"
+            viewBox="0 0 100 100"
+            width="20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M18 50C18 47.2472 19.0448 44.6003 21.03 42.4828L59.8981 3.09688C63.973 -1.03229 70.66 -1.03229 74.7349 3.09688C78.8098 7.22605 78.8098 13.8962 74.7349 18.0254L43.2852 49.8941L74.9438 81.9746C79.0187 86.1038 79.0187 92.774 74.9438 96.9031C70.869 101.032 64.2865 101.032 60.2116 96.9031L21.03 57.5172C19.0448 55.3997 18 52.7528 18 50Z"
+              fill="#989099"
+            />
+          </svg>
+          <p>
+            Back
+          </p>
+        </a>
+        <div
+          class="styles__StyledMoviePoster-sc-wuyzx4-3 ktpBhk"
+        />
+        <h1>
+          Badland Hunters
+        </h1>
+        <div
+          class="globalStyles__StyledFlexWrapper-sc-cp3f5r-1 hCFhdj"
+        >
+          <p
+            class="styles__StyledLabel-sc-wuyzx4-5 fUcjDs"
+          >
+            Released :
+          </p>
+          <p
+            class="styles__StyledValue-sc-wuyzx4-4 jTqoQm"
+          >
+            2024-01-26
+          </p>
+        </div>
+        <div
+          class="globalStyles__StyledFlexWrapper-sc-cp3f5r-1 hCFhdj"
+        >
+          <p
+            class="styles__StyledLabel-sc-wuyzx4-5 fUcjDs"
+          >
+            Genres :
+          </p>
+          <p
+            class="styles__StyledValue-sc-wuyzx4-4 jTqoQm"
+          >
+            Science Fiction, Action, Drama
+          </p>
+        </div>
+        <div
+          class="globalStyles__StyledFlexWrapper-sc-cp3f5r-1 hCFhdj"
+        >
+          <p
+            class="styles__StyledLabel-sc-wuyzx4-5 fUcjDs"
+          >
+            Runtime :
+          </p>
+          <p
+            class="styles__StyledValue-sc-wuyzx4-4 jTqoQm"
+          >
+            107
+             minutes
+          </p>
+        </div>
+        <div
+          class="globalStyles__StyledFlexWrapper-sc-cp3f5r-1 hCFhdj"
+        >
+          <p
+            class="styles__StyledLabel-sc-wuyzx4-5 fUcjDs"
+          >
+            Website :
+          </p>
+          <p
+            class="styles__StyledValue-sc-wuyzx4-4 jTqoQm"
+          >
+            <a
+              href="https://www.netflix.com/title/81721676"
+              rel="noreferrer"
+              target="_blank"
+            >
+              https://www.netflix.com/title/81721676
+            </a>
+          </p>
+        </div>
+        <div
+          class="globalStyles__StyledFlexWrapper-sc-cp3f5r-1 hCFhdj"
+        >
+          <p
+            class="styles__StyledLabel-sc-wuyzx4-5 fUcjDs"
+          >
+            Running time :
+          </p>
+          <p
+            class="styles__StyledValue-sc-wuyzx4-4 jTqoQm"
+          >
+            107
+             minutes
+          </p>
+        </div>
+        <div
+          class="globalStyles__StyledFlexWrapper-sc-cp3f5r-1 hCFhdj"
+        >
+          <p
+            class="styles__StyledLabel-sc-wuyzx4-5 fUcjDs"
+          >
+            Original language :
+          </p>
+          <p
+            class="styles__StyledValue-sc-wuyzx4-4 jTqoQm"
+          >
+            ko
+          </p>
+        </div>
+        <div
+          class="globalStyles__StyledFlexWrapper-sc-cp3f5r-1 hCFhdj"
+        >
+          <p
+            class="styles__StyledLabel-sc-wuyzx4-5 fUcjDs"
+          >
+            Spoken languages :
+          </p>
+          <p
+            class="styles__StyledValue-sc-wuyzx4-4 jTqoQm"
+          >
+            한국어/조선말
+          </p>
+        </div>
+        <div
+          class="globalStyles__StyledFlexWrapper-sc-cp3f5r-1 hCFhdj"
+        >
+          <p
+            class="styles__StyledLabel-sc-wuyzx4-5 fUcjDs"
+          >
+            Revenue :
+          </p>
+          <p
+            class="styles__StyledValue-sc-wuyzx4-4 jTqoQm"
+          >
+            $0.00
+          </p>
+        </div>
+        <div
+          class="globalStyles__StyledFlexWrapper-sc-cp3f5r-1 hCFhdj"
+        >
+          <p
+            class="styles__StyledLabel-sc-wuyzx4-5 fUcjDs"
+          >
+            Budget :
+          </p>
+          <p
+            class="styles__StyledValue-sc-wuyzx4-4 jTqoQm"
+          >
+            $0.00
+          </p>
+        </div>
+        <div
+          class="globalStyles__StyledFlexWrapper-sc-cp3f5r-1 hCFhdj"
+        >
+          <p
+            class="styles__StyledLabel-sc-wuyzx4-5 fUcjDs"
+          >
+            Production companies :
+          </p>
+          <p
+            class="styles__StyledValue-sc-wuyzx4-4 jTqoQm"
+          >
+            Climax Studios, Nova Film, Big Punch Pictures, Lotte Entertainment
+          </p>
+        </div>
+        <div
+          class="globalStyles__StyledFlexWrapper-sc-cp3f5r-1 hCFhdj"
+        >
+          <p
+            class="styles__StyledLabel-sc-wuyzx4-5 fUcjDs"
+          >
+            Production countries :
+          </p>
+          <p
+            class="styles__StyledValue-sc-wuyzx4-4 jTqoQm"
+          >
+            South Korea
+          </p>
+        </div>
+        <div
+          class="globalStyles__StyledFlexWrapper-sc-cp3f5r-1 hCFhdj"
+        >
+          <p
+            class="styles__StyledLabel-sc-wuyzx4-5 fUcjDs"
+          >
+            Tagline :
+          </p>
+          <p
+            class="styles__StyledValue-sc-wuyzx4-4 jTqoQm"
+          >
+            One last hunt to save us all.
+          </p>
+        </div>
+        <div
+          class="globalStyles__StyledFlexWrapper-sc-cp3f5r-1 hCFhdj"
+        >
+          <p
+            class="styles__StyledLabel-sc-wuyzx4-5 fUcjDs"
+          >
+            Votes :
+          </p>
+          <p
+            class="styles__StyledValue-sc-wuyzx4-4 jTqoQm"
+          >
+            411
+          </p>
+        </div>
+        <div
+          class="globalStyles__StyledFlexWrapper-sc-cp3f5r-1 hCFhdj"
+        >
+          <p
+            class="styles__StyledLabel-sc-wuyzx4-5 fUcjDs"
+          >
+            Vote average :
+          </p>
+          <p
+            class="styles__StyledValue-sc-wuyzx4-4 jTqoQm"
+          >
+            6.713
+          </p>
+        </div>
+        <div
+          class="globalStyles__StyledFlexWrapper-sc-cp3f5r-1 hCFhdj"
+        >
+          <p
+            class="styles__StyledLabel-sc-wuyzx4-5 fUcjDs"
+          >
+            Popularity :
+          </p>
+          <p
+            class="styles__StyledValue-sc-wuyzx4-4 jTqoQm"
+          >
+            1924.206
+          </p>
+        </div>
+        <div
+          class="globalStyles__StyledFlexWrapper-sc-cp3f5r-1 hCFhdj"
+        >
+          <p
+            class="styles__StyledLabel-sc-wuyzx4-5 fUcjDs"
+          >
+            IMDB link :
+          </p>
+          <p
+            class="styles__StyledValue-sc-wuyzx4-4 jTqoQm"
+          >
+            <a
+              href="https://www.imdb.com/title/tt29722855"
+              rel="noreferrer"
+              target="_blank"
+            >
+              https://www.imdb.com/title/
+              tt29722855
+            </a>
+          </p>
+        </div>
+        <h2>
+          Overview
+        </h2>
+        <p>
+          After a deadly earthquake turns Seoul into a lawless badland, a fearless huntsman springs into action to rescue a teenager abducted by a mad doctor.
+        </p>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

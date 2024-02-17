@@ -1,3 +1,4 @@
+import { IMovieDetails } from "@features/movies/types";
 import { UseMutationResult } from "react-query";
 
 type IUseMoviesReturnValues = {
@@ -9,12 +10,14 @@ type IUseMoviesReturnValues = {
     unknown
   >;
   getMovies: () => void;
+  movieDetails: IMovieDetails | undefined;
 };
 
 type IMoviesProps = {};
 
 type IMoviesRouteParams = {
   page: string;
+  movieId: string;
 };
 
 type ISearchParams = {
