@@ -9,7 +9,9 @@ describe("InputField", () => {
   const mountWithTheme = useTestComponentWithTheme();
 
   it("should render correctly", () => {
-    const component = mountWithTheme(<InputField name="test" type="text" />);
+    const component = mountWithTheme(
+      <InputField name="test" type="text" onChange={mockOnChange} />
+    );
     expect(component).toMatchSnapshot();
   });
 

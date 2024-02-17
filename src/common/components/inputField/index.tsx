@@ -22,6 +22,9 @@ function InputField({
   testID,
   name,
 }: IFormFieldProps) {
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    onChange(e.target.value);
+  };
   return (
     <StyledInputWrapper>
       {label && <StyledInputLabel>{label}</StyledInputLabel>}
@@ -37,7 +40,7 @@ function InputField({
           />
         )}
         <StyledInput
-          onChange={onChange}
+          onChange={handleChange}
           hasIcon={!!icon}
           placeholder={placeholder}
           type={type}

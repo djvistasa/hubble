@@ -6,7 +6,6 @@ import { ThemeProvider } from "styled-components";
 import { GlobalStyles } from "@globalStyles";
 import { RouterProvider } from "react-router-dom";
 
-import NavBar from "@components/navBar";
 import routes from "@routes";
 import { QueryClient, QueryClientProvider } from "react-query";
 
@@ -16,7 +15,6 @@ createRoot(document.getElementById("root")!).render(
   <StrictMode>
     <QueryClientProvider client={queryClient}>
       <ThemeProvider theme={theme}>
-        <NavBar />
         <RouterProvider router={routes} />
         <GlobalStyles />
       </ThemeProvider>
