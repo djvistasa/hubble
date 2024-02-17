@@ -1,4 +1,6 @@
-const moviesResp = {
+import { IMovieResponse } from "@features/movies/types";
+
+export const moviesResp: IMovieResponse = {
   page: 1,
   results: [
     {

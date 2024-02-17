@@ -92,7 +92,7 @@ const StyledApplicationWrapper = styled.div<IStyledApplicationWrapperProps>`
   padding: ${({ hasPadding }) => (hasPadding ? calculateRem(50) : 0)};
   height: calc(100vh - ${calculateRem(57)});
   margin: auto;
-  width: ${({ fullWidth }) => (fullWidth ? "100%" : calculateRem(1400))};
+  width: ${({ fullWidth }) => (fullWidth ? "100%" : calculateRem(1200))};
 `;
 
 const StyledErrorIndicator = styled.p`

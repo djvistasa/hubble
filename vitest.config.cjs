@@ -32,11 +32,11 @@ export default defineConfig({
     coverage: {
       reporter: ["text", "json", "html"],
       exclude: [
-        "src/utils/**.ts",
-        "src/routes/index.tsx",
+        "src/common/utils/**.ts",
+        "src/common/routes/index.tsx",
         "src/common/theme/**.ts",
         "src/common/hooks/**",
-        "src/declarations/**",
+        "src/common/declarations/**",
         "src/common/types/**",
         "src/common/theme/globalStyles/**",
         "src/common/components/**/styles.ts",
@@ -50,6 +50,7 @@ export default defineConfig({
         "src/features/**/hooks/**/types.ts",
         "src/features/**/types/index.ts",
         "src/features/**/hooks/**/types.ts",
+        "src/features/**/hooks/**/index.ts",
         "src/features/**/hooks/**/constants.ts",
         "src/features/**/pages/**/constants.ts",
         "src/features/**/stores/**/constants.ts",
