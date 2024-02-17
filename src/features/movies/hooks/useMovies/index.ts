@@ -1,23 +1,29 @@
 import { IMovieResponse } from "@features/movies/types";
 import { makeApiRequest } from "@utils";
-import { useState } from "react";
 import { useQuery } from "react-query";
-import { useSearchParams } from "react-router-dom";
-import { IUseMovies } from "./types";
+import { useNavigate, useParams, useSearchParams } from "react-router-dom";
+import { IMoviesRouteParams, IUseMovies } from "./types";
 
 function useMovies(): IUseMovies {
   // create a getMovies mutation
-  const [_searchParams, setSearchParams] = useSearchParams();
-  const [activePage, setActivePage] = useState(1);
+
+  const { page } = useParams<IMoviesRouteParams>();
+  const [searchParams, setSearchParams] = useSearchParams();
+
+  const navigation = useNavigate();
+
+  console.log(searchParams);
 
   const getNextPage = () => {
-    const nextPage = activePage + 1;
-    setActivePage(nextPage);
+    if (page) {
+      const activePage = parseInt(page);
+      navigation(`/movies/${activePage + 1}`);
+    }
   };
 
   const { data: movies } = useQuery(["movies"], async () => {
     const { error, result, ok } = await makeApiRequest(
-      `/discover/movie?include_adult=false&include_video=false&language=en-US&page=${activePage}&sort_by=popularity.desc`
+      `/discover/movie?include_adult=false&include_video=false&language=en-US&page=${page}&sort_by=popularity.desc`
     );
     if (error) {
       // handle error
@@ -25,14 +31,12 @@ function useMovies(): IUseMovies {
     }
 
     if (result && ok) {
-      const { page, results, total_pages, total_results } =
-        result as IMovieResponse;
+      const { results, total_pages } = result as IMovieResponse;
 
       setSearchParams({
-        page: page.toString(),
         total_pages: total_pages.toString(),
-        total_results: total_results.toString(),
       });
+
       return results;
     }
   });

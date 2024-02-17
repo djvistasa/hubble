@@ -5,10 +5,12 @@ type IUseMovies = {
   getNextPage: () => void;
 };
 
-type IMoviesSearchParams = {
+type IMoviesRouteParams = {
   page: string;
-  total_pages: string;
-  total_results: string;
 };
 
-export type { IMoviesSearchParams, IUseMovies };
+type ISearchParams = {
+  total_pages: string;
+};
+
+export type { IMoviesRouteParams, IUseMovies, ISearchParams };
