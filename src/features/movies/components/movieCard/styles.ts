@@ -32,7 +32,7 @@ const StyledMovieInfoWrapper = styled.p`
   padding: ${calculateRem(10)};
   background-color: ${({ theme }) => theme.colors.primary};
   position: absolute;
-  bottom: -${calculateRem(50)};
+  bottom: -${calculateRem(100)};
   left: 0;
   width: 100%;
   transition: all 0.3s ease-in-out;

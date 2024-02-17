@@ -6,6 +6,7 @@ const StyledMoviesList = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: ${calculateRem(20)};
+  padding-bottom: ${calculateRem(20)};
 `;
 
 export { StyledMoviesList };

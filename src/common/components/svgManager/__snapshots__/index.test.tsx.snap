@@ -1,39 +1,45 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`MovieCard > should render correctly 1`] = `
+exports[`SvgManager > should render correctly 1`] = `
 {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <a
-        class="styles__StyledMovieCard-sc-vuoc3k-0 gZnIKa"
-        data-testid="movie-card-Badland Hunters"
+      <svg
+        fill="none"
+        height="100"
+        viewBox="0 0 100 100"
+        width="100"
+        xmlns="http://www.w3.org/2000/svg"
       >
-        <div
-          class="styles__StyledMask-sc-vuoc3k-2 LYXKU mask"
+        <path
+          d="M39.5 73.9C19.9 73.9 4 58 4 38.5C4 19 19.9 3 39.5 3C59.1 3 75 18.9 75 38.5C75 58.1 59 73.9 39.5 73.9ZM39.5 20C29.3 20 21 28.3 21 38.5C21 48.7 29.3 57 39.5 57C49.7 57 58 48.7 58 38.5C58 28.3 49.7 20 39.5 20Z"
+          fill="#989099"
         />
-        <p
-          class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 gKOtGX"
-        >
-          Badland Hunters
-        </p>
-      </a>
+        <path
+          d="M93.6998 82.9999L76.2999 65.4999C74.8999 64.0999 72.5999 64.1999 71.2999 65.6999C69.1999 68.0999 66.8999 70.2999 64.3999 72.1999C62.6999 73.3999 62.5999 75.8999 63.9999 77.2999L81.8999 95.1999C83.5999 96.8999 85.6999 97.6999 87.8999 97.6999C89.9999 97.6999 92.1999 96.8999 93.7999 95.2999C97.2999 91.9999 97.0998 86.3999 93.6998 82.9999Z"
+          fill="#989099"
+        />
+      </svg>
     </div>
   </body>,
   "container": <div>
-    <a
-      class="styles__StyledMovieCard-sc-vuoc3k-0 gZnIKa"
-      data-testid="movie-card-Badland Hunters"
+    <svg
+      fill="none"
+      height="100"
+      viewBox="0 0 100 100"
+      width="100"
+      xmlns="http://www.w3.org/2000/svg"
     >
-      <div
-        class="styles__StyledMask-sc-vuoc3k-2 LYXKU mask"
+      <path
+        d="M39.5 73.9C19.9 73.9 4 58 4 38.5C4 19 19.9 3 39.5 3C59.1 3 75 18.9 75 38.5C75 58.1 59 73.9 39.5 73.9ZM39.5 20C29.3 20 21 28.3 21 38.5C21 48.7 29.3 57 39.5 57C49.7 57 58 48.7 58 38.5C58 28.3 49.7 20 39.5 20Z"
+        fill="#989099"
       />
-      <p
-        class="styles__StyledMovieInfoWrapper-sc-vuoc3k-1 gKOtGX"
-      >
-        Badland Hunters
-      </p>
-    </a>
+      <path
+        d="M93.6998 82.9999L76.2999 65.4999C74.8999 64.0999 72.5999 64.1999 71.2999 65.6999C69.1999 68.0999 66.8999 70.2999 64.3999 72.1999C62.6999 73.3999 62.5999 75.8999 63.9999 77.2999L81.8999 95.1999C83.5999 96.8999 85.6999 97.6999 87.8999 97.6999C89.9999 97.6999 92.1999 96.8999 93.7999 95.2999C97.2999 91.9999 97.0998 86.3999 93.6998 82.9999Z"
+        fill="#989099"
+      />
+    </svg>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],
