@@ -2,7 +2,7 @@ import { IMovie } from "@features/movies/types";
 
 type IMoviesListProps = {
   movies: IMovie[];
-  onMovieClick: (movie: IMovie) => void;
+  onMovieClick: (movieId: number) => void;
 };
 
 export type { IMoviesListProps };

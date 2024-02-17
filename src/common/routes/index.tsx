@@ -2,6 +2,7 @@ import { Navigate, createBrowserRouter } from "react-router-dom";
 
 import ProtectedRoute from "@components/protectedRoute";
 import MoviesHome from "@features/movies/pages/home";
+import MovieDetails from "@features/movies/pages/movie";
 
 const routes = createBrowserRouter([
   {
@@ -9,6 +10,14 @@ const routes = createBrowserRouter([
     element: (
       <ProtectedRoute>
         <MoviesHome />
+      </ProtectedRoute>
+    ),
+  },
+  {
+    path: "/movie/:movieId",
+    element: (
+      <ProtectedRoute>
+        <MovieDetails />
       </ProtectedRoute>
     ),
   },

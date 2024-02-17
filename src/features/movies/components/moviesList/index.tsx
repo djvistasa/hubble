@@ -15,7 +15,7 @@ function MoviesList({ movies, onMovieClick }: IMoviesListProps): JSX.Element {
         <MovieCard
           key={movie.id}
           movie={movie}
-          onMovieClick={() => onMovieClick(movie)}
+          onMovieClick={() => onMovieClick(movie.id)}
         />
       ))}
     </StyledMoviesList>

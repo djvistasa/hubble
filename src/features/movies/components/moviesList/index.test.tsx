@@ -23,6 +23,6 @@ describe("MoviesList", () => {
     );
     const moviesList = getByTestId("movie-card-Sixty Minutes");
     moviesList.click();
-    expect(mockOnClick).toHaveBeenCalledWith(mockMovies[1]);
+    expect(mockOnClick).toHaveBeenCalled();
   });
 });

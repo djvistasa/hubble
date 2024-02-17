@@ -1,5 +1,5 @@
 import { useMoviesStore } from "@features/movies/store";
-import { IMovieResponse } from "@features/movies/types";
+import { IMovieDetails, IMovieResponse } from "@features/movies/types";
 import { makeApiRequest } from "@utils";
 import { useState } from "react";
 import { useMutation, useQuery } from "react-query";
@@ -7,11 +7,14 @@ import { useNavigate, useParams, useSearchParams } from "react-router-dom";
 import { IMoviesRouteParams, IUseMoviesReturnValues } from "./types";
 
 function useMovies(): IUseMoviesReturnValues {
-  const { page } = useParams<IMoviesRouteParams>();
+  const { page, movieId } = useParams<IMoviesRouteParams>();
   const [_searchParams, setSearchParams] = useSearchParams();
   const { setMovies, setFilteredMovies } = useMoviesStore();
 
   const [enableMoviesQuery, setEnableMoviesQuery] = useState(false);
+  const [movieDetails, setMovieDetails] = useState<IMovieDetails | undefined>(
+    undefined
+  );
 
   const getMovies = () => setEnableMoviesQuery(true);
 
@@ -71,8 +74,34 @@ function useMovies(): IUseMoviesReturnValues {
       enabled: enableMoviesQuery,
     }
   );
+  useQuery(
+    ["movieDetails"],
+    async () => {
+      setMovieDetails(undefined);
+      const { error, result, ok } = await makeApiRequest(`/movie/${movieId}`);
 
-  return { getNextPage, searchForMovie, getMovies };
+      if (error) {
+        // handle error
+        return null;
+      }
+
+      if (result && ok) {
+        const details = result as IMovieDetails;
+
+        return setMovieDetails(details);
+      }
+    },
+    {
+      enabled: !!movieId,
+    }
+  );
+
+  return {
+    getNextPage,
+    searchForMovie,
+    getMovies,
+    movieDetails,
+  };
 }
 
 export default useMovies;

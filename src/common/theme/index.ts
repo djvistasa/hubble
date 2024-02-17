@@ -8,6 +8,7 @@ const theme: DefaultTheme = {
     primary16: "rgba(247, 168, 35, 0.16)",
     primaryBorder: "#FF8931",
     black25: "rgba(0, 0, 0, 0.25)",
+    black80: "rgba(0, 0, 0, 0.80)",
     white: "#fff",
     secondary: "#FF9454",
     tertiary: "#F1F4F7",
@@ -28,8 +29,6 @@ const theme: DefaultTheme = {
   },
   fonts: {
     poppins: "Poppins, sans-serif",
-
-    // add that gothic font here
   },
 };
 

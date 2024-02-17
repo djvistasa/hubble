@@ -1,4 +1,4 @@
-import { IMovieResponse } from "@features/movies/types";
+import { IMovieDetails, IMovieResponse } from "@features/movies/types";
 
 export const moviesResp: IMovieResponse = {
   page: 1,
@@ -346,4 +346,87 @@ export const moviesResp: IMovieResponse = {
   ],
   total_pages: 42500,
   total_results: 849996,
+};
+
+export const movieDetailsResp: IMovieDetails = {
+  adult: false,
+  backdrop_path: "/pWsD91G2R1Da3AKM3ymr3UoIfRb.jpg",
+  belongs_to_collection: {
+    id: 1196130,
+    name: "Concrete Utopia Collection",
+    poster_path: "/l4emA6jN9YQxhdpoZ4IThpMofc6.jpg",
+    backdrop_path: "/9iJi448p9cvnpnLN7C0jBFjSseX.jpg",
+  },
+  budget: 0,
+  genres: [
+    {
+      id: 878,
+      name: "Science Fiction",
+    },
+    {
+      id: 28,
+      name: "Action",
+    },
+    {
+      id: 18,
+      name: "Drama",
+    },
+  ],
+  homepage: "https://www.netflix.com/title/81721676",
+  id: 933131,
+  imdb_id: "tt29722855",
+  original_language: "ko",
+  original_title: "황야",
+  overview:
+    "After a deadly earthquake turns Seoul into a lawless badland, a fearless huntsman springs into action to rescue a teenager abducted by a mad doctor.",
+  popularity: 1924.206,
+  poster_path: "/zVMyvNowgbsBAL6O6esWfRpAcOb.jpg",
+  production_companies: [
+    {
+      id: 127541,
+      logo_path: "/Aq35mXuZv7lhPm8a60YKRaB9Vek.png",
+      name: "Climax Studios",
+      origin_country: "KR",
+    },
+    {
+      id: 159339,
+      logo_path: null,
+      name: "Nova Film",
+      origin_country: "KR",
+    },
+    {
+      id: 129217,
+      logo_path: null,
+      name: "Big Punch Pictures",
+      origin_country: "KR",
+    },
+    {
+      id: 7819,
+      logo_path: "/ghFZAt4edln0M7BzDExyYMzUGX1.png",
+      name: "Lotte Entertainment",
+      origin_country: "KR",
+    },
+  ],
+  production_countries: [
+    {
+      iso_3166_1: "KR",
+      name: "South Korea",
+    },
+  ],
+  release_date: "2024-01-26",
+  revenue: 0,
+  runtime: 107,
+  spoken_languages: [
+    {
+      english_name: "Korean",
+      iso_639_1: "ko",
+      name: "한국어/조선말",
+    },
+  ],
+  status: "Released",
+  tagline: "One last hunt to save us all.",
+  title: "Badland Hunters",
+  video: false,
+  vote_average: 6.713,
+  vote_count: 411,
 };
