@@ -4,15 +4,24 @@
  *
  */
 
+import ApplicationWrapper from "@components/applicationWrapper";
 import MoviesList from "@features/movies/components/moviesList";
-import { moviesResp } from "@features/movies/hooks/useMovies/mocks";
-import { StyledApplicationWrapper } from "@globalStyles";
+import useMovies from "@features/movies/hooks/useMovies";
+import { useMoviesStore } from "@features/movies/store";
+import { useEffect } from "react";
 
 function Home(): JSX.Element {
+  const { getMovies } = useMovies();
+  const { filteredMovies: movies } = useMoviesStore();
+
+  useEffect(() => {
+    getMovies();
+  }, []);
+
   return (
-    <StyledApplicationWrapper>
-      <MoviesList movies={moviesResp.results} onMovieClick={() => {}} />
-    </StyledApplicationWrapper>
+    <ApplicationWrapper>
+      <MoviesList movies={movies || []} onMovieClick={() => {}} />
+    </ApplicationWrapper>
   );
 }
 

@@ -1,6 +1,6 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`NavBar > should render correctly 1`] = `
+exports[`ApplicationWrapper > should render correctly 1`] = `
 {
   "asFragment": [Function],
   "baseElement": <body>
@@ -52,6 +52,9 @@ exports[`NavBar > should render correctly 1`] = `
           </div>
         </div>
       </div>
+      <div
+        class="styles__StyledApplicationWrapper-sc-hvuceh-0 csTtfJ"
+      />
     </div>
   </body>,
   "container": <div>
@@ -102,6 +105,9 @@ exports[`NavBar > should render correctly 1`] = `
         </div>
       </div>
     </div>
+    <div
+      class="styles__StyledApplicationWrapper-sc-hvuceh-0 csTtfJ"
+    />
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],

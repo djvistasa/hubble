@@ -4,10 +4,7 @@ import { calculateRem } from "@utils";
 import { createGlobalStyle } from "styled-components";
 import styled from "styled-components/macro";
 import reset from "styled-reset";
-import {
-  IStyledApplicationWrapperProps,
-  IStyledFlexWrapperProps,
-} from "../types";
+import { IStyledFlexWrapperProps } from "../types";
 
 const GlobalStyles = createGlobalStyle`
   ${reset};
@@ -88,14 +85,6 @@ const GlobalStyles = createGlobalStyle`
 
 `;
 
-const StyledApplicationWrapper = styled.div<IStyledApplicationWrapperProps>`
-  padding: ${({ hasPadding }) => (hasPadding ? calculateRem(50) : 0)};
-  height: calc(100vh - ${calculateRem(57)});
-  margin: auto;
-  width: ${({ fullWidth }) => (fullWidth ? "100%" : calculateRem(1200))};
-  padding-top: ${calculateRem(90)};
-`;
-
 const StyledErrorIndicator = styled.p`
   font-size: ${calculateRem(12)};
   bottom: -${calculateRem(21)};
@@ -138,7 +127,6 @@ const StyledFormFooterCopy = styled.p`
 
 export {
   GlobalStyles,
-  StyledApplicationWrapper,
   StyledErrorIndicator,
   StyledFlexWrapper,
   StyledFormFooterCopy,

@@ -5,7 +5,7 @@ type IFormFieldProps = {
   label?: string;
   type: FormFieldType;
   defaultValue?: string;
-  onChange?: (value: any) => void;
+  onChange: (value: any) => void;
   onBlur?: () => void;
   value?: any;
   icon?: IconType;

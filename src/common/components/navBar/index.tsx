@@ -3,8 +3,10 @@
  * NavBar
  *
  */
-
 import InputField from "@components/inputField";
+import useMovies from "@features/movies/hooks/useMovies";
+import { useMoviesStore } from "@features/movies/store";
+import { useDebounceCallback } from "usehooks-ts";
 import {
   StyledAppName,
   StyledNavBar,
@@ -14,6 +16,12 @@ import {
 import { INavBarProps } from "./types";
 
 function NavBar(_props: INavBarProps): JSX.Element {
+  const { searchForMovie } = useMovies();
+  const { resetMovies } = useMoviesStore();
+  const handleSearch = useDebounceCallback((searchTerm: string) => {
+    if (!searchTerm) return resetMovies();
+    searchForMovie.mutate(searchTerm);
+  }, 500);
   return (
     <StyledNavBar>
       <StyledNavBarInner>
@@ -22,8 +30,8 @@ function NavBar(_props: INavBarProps): JSX.Element {
         <StyledSearchBarWrapper>
           <InputField
             icon="search"
-            placeholder="Find movies, tv shows, people..."
-            onChange={() => {}}
+            placeholder="Find movies..."
+            onChange={handleSearch}
             type="text"
             name="search"
           />
