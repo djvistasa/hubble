@@ -3,7 +3,7 @@ import { IMovieDetails, IMovieResponse } from "@features/movies/types";
 import { makeApiRequest } from "@utils";
 import { useState } from "react";
 import { useMutation, useQuery } from "react-query";
-import { useNavigate, useParams, useSearchParams } from "react-router-dom";
+import { useParams, useSearchParams } from "react-router-dom";
 import { IMoviesRouteParams, IUseMoviesReturnValues } from "./types";
 
 function useMovies(): IUseMoviesReturnValues {
@@ -17,15 +17,6 @@ function useMovies(): IUseMoviesReturnValues {
   );
 
   const getMovies = () => setEnableMoviesQuery(true);
-
-  const navigation = useNavigate();
-
-  const getNextPage = () => {
-    if (page) {
-      const activePage = parseInt(page);
-      navigation(`/movies/${activePage + 1}`);
-    }
-  };
 
   const searchForMovie = useMutation(async (searchTerm: string) => {
     const { error, result, ok } = await makeApiRequest(
@@ -47,33 +38,33 @@ function useMovies(): IUseMoviesReturnValues {
     }
   });
 
-  useQuery(
-    ["movies"],
-    async () => {
-      const { error, result, ok } = await makeApiRequest(
-        `/discover/movie?include_adult=false&include_video=false&language=en-US&page=${page}&sort_by=popularity.desc`
-      );
+  const getPaginatedMoviesData = async (page: number) => {
+    const { error, result, ok } = await makeApiRequest(
+      `/discover/movie?include_adult=false&include_video=false&language=en-US&page=${page}&sort_by=popularity.desc`
+    );
 
-      if (error) {
-        // handle error
-        return [];
-      }
-
-      if (result && ok) {
-        const { results, total_pages } = result as IMovieResponse;
-
-        setSearchParams({
-          total_pages: total_pages.toString(),
-        });
-
-        setMovies([...results]);
-        setFilteredMovies([...results]);
-      }
-    },
-    {
-      enabled: enableMoviesQuery,
+    if (error) {
+      // handle error
+      return [];
     }
-  );
+
+    if (result && ok) {
+      const { results, total_pages } = result as IMovieResponse;
+
+      setSearchParams({
+        total_pages: total_pages.toString(),
+      });
+
+      setMovies([...results]);
+      setFilteredMovies([...results]);
+    }
+  };
+
+  useQuery(["movies", page], async () => getPaginatedMoviesData(Number(page)), {
+    enabled: enableMoviesQuery,
+    keepPreviousData: true,
+  });
+
   useQuery(
     ["movieDetails"],
     async () => {
@@ -97,7 +88,6 @@ function useMovies(): IUseMoviesReturnValues {
   );
 
   return {
-    getNextPage,
     searchForMovie,
     getMovies,
     movieDetails,
