@@ -5,11 +5,12 @@ import { useState } from "react";
 import { useMutation, useQuery } from "react-query";
 import { useParams, useSearchParams } from "react-router-dom";
 import { IMoviesRouteParams, IUseMoviesReturnValues } from "./types";
+import { getPaginatedMoviesData } from "./utils";
 
 function useMovies(): IUseMoviesReturnValues {
   const { page, movieId } = useParams<IMoviesRouteParams>();
   const [_searchParams, setSearchParams] = useSearchParams();
-  const { setMovies, setFilteredMovies } = useMoviesStore();
+  const { setFilteredMovies } = useMoviesStore();
 
   const [enableMoviesQuery, setEnableMoviesQuery] = useState(false);
   const [movieDetails, setMovieDetails] = useState<IMovieDetails | undefined>(
@@ -38,32 +39,14 @@ function useMovies(): IUseMoviesReturnValues {
     }
   });
 
-  const getPaginatedMoviesData = async (page: number) => {
-    const { error, result, ok } = await makeApiRequest(
-      `/discover/movie?include_adult=false&include_video=false&language=en-US&page=${page}&sort_by=popularity.desc`
-    );
-
-    if (error) {
-      // handle error
-      return [];
+  useQuery(
+    ["movies", page],
+    async () => getPaginatedMoviesData(Number(page), setSearchParams),
+    {
+      enabled: enableMoviesQuery,
+      keepPreviousData: true,
     }
-
-    if (result && ok) {
-      const { results, total_pages } = result as IMovieResponse;
-
-      setSearchParams({
-        total_pages: total_pages.toString(),
-      });
-
-      setMovies([...results]);
-      setFilteredMovies([...results]);
-    }
-  };
-
-  useQuery(["movies", page], async () => getPaginatedMoviesData(Number(page)), {
-    enabled: enableMoviesQuery,
-    keepPreviousData: true,
-  });
+  );
 
   useQuery(
     ["movieDetails"],
