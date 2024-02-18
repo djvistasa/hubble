@@ -9,4 +9,8 @@ const StyledMoviesList = styled.div`
   padding-bottom: ${calculateRem(20)};
 `;
 
-export { StyledMoviesList };
+const StyledPaginationWrapper = styled.div`
+  padding-bottom: ${calculateRem(20)};
+`;
+
+export { StyledMoviesList, StyledPaginationWrapper };

@@ -2,7 +2,6 @@ import { IMovieDetails } from "@features/movies/types";
 import { UseMutationResult } from "react-query";
 
 type IUseMoviesReturnValues = {
-  getNextPage: () => void;
   searchForMovie: UseMutationResult<
     never[] | undefined,
     unknown,
