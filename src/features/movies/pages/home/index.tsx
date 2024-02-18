@@ -5,6 +5,7 @@
  */
 
 import ApplicationWrapper from "@components/applicationWrapper";
+import NoResultsFound from "@components/noResultsFound";
 import MoviesList from "@features/movies/components/moviesList";
 import useMovies from "@features/movies/hooks/useMovies";
 import { useMoviesStore } from "@features/movies/store";
@@ -17,16 +18,22 @@ function Home(): JSX.Element {
 
   const navigate = useNavigate();
 
+  console.log(movies);
+
   useEffect(() => {
     getMovies();
   }, []);
 
   return (
     <ApplicationWrapper>
-      <MoviesList
-        movies={movies || []}
-        onMovieClick={(movieId: number) => navigate(`/movie/${movieId}`)}
-      />
+      {movies?.length === 0 ? (
+        <NoResultsFound />
+      ) : (
+        <MoviesList
+          movies={movies || []}
+          onMovieClick={(movieId: number) => navigate(`/movie/${movieId}`)}
+        />
+      )}
     </ApplicationWrapper>
   );
 }
