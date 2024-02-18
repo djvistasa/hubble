@@ -16,7 +16,7 @@ function Button({
   variant = "primary",
   testID,
   icon,
-  disabled,
+  disabled = false,
 }: IButtonProps): JSX.Element {
   const theme = useTheme();
 
@@ -27,7 +27,7 @@ function Button({
       $color={getFontColor(variant, theme)}
       onClick={onClick}
       data-testid={testID}
-      disabled={disabled}
+      disabled={!!disabled}
     >
       {icon && (
         <StyledIconWrapper>

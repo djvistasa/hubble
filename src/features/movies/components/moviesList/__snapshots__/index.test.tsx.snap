@@ -269,6 +269,26 @@ exports[`MoviesList > should render correctly 1`] = `
           </p>
         </a>
       </div>
+      <div
+        class="styles__StyledPaginationWrapper-sc-1n8iwya-1 gTDeZP"
+      >
+        <div
+          class="styles__StyledPagination-sc-kafszj-0 cHUXYz"
+        >
+          <button
+            class="styles__StyledButton-sc-1mujxr2-0 iqLpCy"
+            disabled=""
+          >
+            Previous
+          </button>
+          <button
+            class="styles__StyledButton-sc-1mujxr2-0 iqLpCy"
+            disabled=""
+          >
+            Next
+          </button>
+        </div>
+      </div>
     </div>
   </body>,
   "container": <div>
@@ -535,6 +555,26 @@ exports[`MoviesList > should render correctly 1`] = `
           The Bricklayer
         </p>
       </a>
+    </div>
+    <div
+      class="styles__StyledPaginationWrapper-sc-1n8iwya-1 gTDeZP"
+    >
+      <div
+        class="styles__StyledPagination-sc-kafszj-0 cHUXYz"
+      >
+        <button
+          class="styles__StyledButton-sc-1mujxr2-0 iqLpCy"
+          disabled=""
+        >
+          Previous
+        </button>
+        <button
+          class="styles__StyledButton-sc-1mujxr2-0 iqLpCy"
+          disabled=""
+        >
+          Next
+        </button>
+      </div>
     </div>
   </div>,
   "debug": [Function],
