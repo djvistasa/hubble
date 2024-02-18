@@ -13,7 +13,7 @@ function usePagination(): IUsePaginationReturnValues {
   const { pathname, search } = useLocation();
   const [searchParams] = useSearchParams();
 
-  const [showNextButton, setsShowNextButton] = useState<boolean>(false);
+  const [disableNextButton, setDisableNextButton] = useState<boolean>(false);
 
   const navigate = useNavigate();
 
@@ -35,15 +35,15 @@ function usePagination(): IUsePaginationReturnValues {
     if (totalPages) {
       const totalPagesNumber = Number(totalPages);
 
-      setsShowNextButton(Number(page) < totalPagesNumber);
+      setDisableNextButton(Number(page) < totalPagesNumber);
     }
   }, [page, searchParams]);
 
   return {
     getNextDataSet,
     getPreviousDataSet,
-    showNextButton,
-    showPreviousButton: Number(page) > 1,
+    disableNextButton,
+    disablePreviousButton: Number(page) > 1,
   };
 }
 

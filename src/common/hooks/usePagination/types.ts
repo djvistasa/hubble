@@ -3,8 +3,8 @@ type IUsePaginationProps = {};
 type IUsePaginationReturnValues = {
   getNextDataSet: () => void;
   getPreviousDataSet: () => void;
-  showNextButton: boolean;
-  showPreviousButton: boolean;
+  disableNextButton: boolean;
+  disablePreviousButton: boolean;
 };
 
 export type { IUsePaginationProps, IUsePaginationReturnValues };

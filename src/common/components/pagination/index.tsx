@@ -13,20 +13,20 @@ function Pagination(_props: IPaginationProps): JSX.Element {
   const {
     getNextDataSet,
     getPreviousDataSet,
-    showNextButton,
-    showPreviousButton,
+    disableNextButton,
+    disablePreviousButton,
   } = usePagination();
   return (
     <StyledPagination>
       <Button
         title="Previous"
         onClick={getPreviousDataSet}
-        disabled={!showPreviousButton}
+        disabled={!disablePreviousButton}
       />
       <Button
         title="Next"
         onClick={getNextDataSet}
-        disabled={!showNextButton}
+        disabled={!disableNextButton}
       />
     </StyledPagination>
   );
