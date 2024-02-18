@@ -12,4 +12,7 @@ vi.mock("react-router-dom", () => ({
     vi.fn(),
   ],
   useNavigate: () => vi.fn(),
+  useLocation: () => ({
+    pathname: "/search",
+  }),
 }));

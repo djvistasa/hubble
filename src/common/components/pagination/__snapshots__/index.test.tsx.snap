@@ -1,23 +1,45 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`Button > should render correctly 1`] = `
+exports[`Pagination > should render correctly 1`] = `
 {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <button
-        class="styles__StyledButton-sc-1mujxr2-0 iqLpCy"
+      <div
+        class="styles__StyledPagination-sc-kafszj-0 cHUXYz"
       >
-        hello
-      </button>
+        <button
+          class="styles__StyledButton-sc-1mujxr2-0 iqLpCy"
+          disabled=""
+        >
+          Previous
+        </button>
+        <button
+          class="styles__StyledButton-sc-1mujxr2-0 iqLpCy"
+          disabled=""
+        >
+          Next
+        </button>
+      </div>
     </div>
   </body>,
   "container": <div>
-    <button
-      class="styles__StyledButton-sc-1mujxr2-0 iqLpCy"
+    <div
+      class="styles__StyledPagination-sc-kafszj-0 cHUXYz"
     >
-      hello
-    </button>
+      <button
+        class="styles__StyledButton-sc-1mujxr2-0 iqLpCy"
+        disabled=""
+      >
+        Previous
+      </button>
+      <button
+        class="styles__StyledButton-sc-1mujxr2-0 iqLpCy"
+        disabled=""
+      >
+        Next
+      </button>
+    </div>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],
